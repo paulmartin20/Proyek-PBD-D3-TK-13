@@ -1,0 +1,1 @@
+DECLARE @TanggalLahir_ID INTDECLARE @TanggalLahir_ID2 INTSET @TanggalLahir_ID = '20021209'SET @TanggalLahir_ID2 = '20011205'	IF @TanggalLahir_ID2 < @TanggalLahir_ID		SELECT * FROM siswa	ELSE		SELECT tanggal_lahir		FROM siswa;
